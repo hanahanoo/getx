@@ -4,7 +4,7 @@ import 'package:getx/app/modules/alquran/views/alquran_detail_view.dart';
 import '../controllers/alquran_controller.dart';
 
 class BacaquranView extends GetView<BacaquranController> {
-  BacaquranView({Key? key}) : super(key: key);
+  BacaquranView({Key? key});
   final BacaquranController controller = Get.put(BacaquranController());
 
   @override

@@ -94,7 +94,7 @@ class FormPendaftaranView extends GetView<FormPendaftaranView> {
                 )
               ),
               const SizedBox(height: 20),
-              ElevatedButton(onPressed: () { controller.submit(); }, child: Text('submir'))
+              ElevatedButton(onPressed: () { controller.submit(); }, child: Text('submit'))
             ],
           ),
         ),

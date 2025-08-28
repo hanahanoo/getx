@@ -5,7 +5,8 @@ import 'package:getx/app/modules/post/views/post_detail_view.dart';
 import '../controllers/post_controller.dart';
 
 class PostView extends GetView<PostController> {
-  PostView({Key? key}) : super(key: key);
+ PostView({Key? key});
+  final PostController controller = Get.put(PostController());
 
   @override
   Widget build(BuildContext context) {

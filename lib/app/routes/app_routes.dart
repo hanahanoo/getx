@@ -8,6 +8,10 @@ abstract class Routes {
   static const PENDAFTARAN = _Paths.PENDAFTARAN;
   static const POST = _Paths.POST;
   static const ALQURAN = _Paths.ALQURAN;
+  static const AUTH = _Paths.AUTH;
+  static const LOGIN = _Paths.LOGIN;
+  static const REGISTER = _Paths.REGISTER;
+  static const PROFILE = _Paths.PROFILE;
 }
 
 abstract class _Paths {
@@ -17,4 +21,8 @@ abstract class _Paths {
   static const PENDAFTARAN = '/pendaftaran';
   static const POST = '/post';
   static const ALQURAN = '/alquran';
+  static const AUTH = '/auth';
+  static const LOGIN = '/auth/login';
+  static const REGISTER = '/auth/register';
+  static const PROFILE = '/profile';
 }
